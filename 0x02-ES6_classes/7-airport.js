@@ -27,6 +27,6 @@ iexport default class Airport {
   }
 
   get [Symbol.toStringTag]() {
-    return this.code();
+    return this.code;
   }
 }
